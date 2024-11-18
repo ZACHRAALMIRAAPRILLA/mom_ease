@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    width: 250px;
+}
+
+.sidebar h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.sidebar .nav-link {
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #333333;
+    border-radius: 5px;
+    color: #f0f0f0;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+}
+
+/* User Management Table */
+.table-responsive {
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.table {
+    min-width: 500px;
+}
+
+.table thead {
+    background-color: #e9ecef;
+}
+
+.table .badge {
+    font-size: 0.9rem;
+}
+
+/* Calendar Styles */
+.calendar {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.calendar table {
+    width: 100%;
+}
+
+.calendar th, .calendar td {
+    padding: 5px;
+}
+
+.calendar .table-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Chart Area */
+.chart-container {
+    margin-top: 20px;
+}
+
+/* Medical Report Table */
+.medical-report-table {
+    font-size: 0.9rem;
+}
+
+.medical-report-table thead {
+    background-color: #e9ecef;
+}
+
+.medical-report-table td, .medical-report-table th {
+    padding: 8px;
+}
+
+.medical-report-table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.medical-report-table a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
